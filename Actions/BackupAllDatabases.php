@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\MaMe\AutoDatabaseBackup\Actions;
+namespace App\Vito\Plugins\MarcoAmendolaAutoDatabaseBackup\Actions;
 
 use App\Actions\Database\ManageBackup;
 use App\Actions\Database\RunBackup;

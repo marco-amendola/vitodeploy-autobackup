@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Vito\Plugins\MaMe\AutoDatabaseBackup;
+namespace App\Vito\Plugins\MarcoAmendolaAutoDatabaseBackup;
 
 use App\Actions\Database\ManageBackup;
 use App\Models\Database;
@@ -25,7 +25,7 @@ class Plugin extends AbstractPlugin
 
         RegisterServerFeatureAction::make('database-automation', 'backup-all')
             ->label('Backup di tutti i database')
-            ->handler(\App\Vito\Plugins\MaMe\AutoDatabaseBackup\Actions\BackupAllDatabases::class)
+            ->handler(\App\Vito\Plugins\MarcoAmendolaAutoDatabaseBackup\Actions\BackupAllDatabases::class)
             ->register();
 
     // Auto-backup alla creazione di un database
